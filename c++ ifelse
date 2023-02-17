@@ -1,0 +1,26 @@
+// JDawg
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char year;
+	float gpa;
+
+	cout << "What year student are you?" << endl;
+	cout << "Enter 1 (freshmen), 2 (sopohomore), 3 (junior), or 4 (senior)"
+		<< endl << endl;
+	cin >> year;
+
+	cout << "now enter your GPA" << endl; 
+	cin >> gpa;
+
+	if (gpa >= 2.0 && year == '4')
+		cout << "it is time to graduate soon " << endl;
+
+	else;
+		cout << "you need more schooling" << endl;
+
+	return 0;
+}
